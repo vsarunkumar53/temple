@@ -1,0 +1,31 @@
+<!--  top image    -->
+<div id="top-image">
+	<%= image_tag 'top_img.jpg', width: "100%", height: 125 %>
+</div>
+
+<!-- Navigation bar  -->
+
+<div class="margin-top-1">
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class ="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-3">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">TempleName</a>
+		    </div>
+			</div>
+		  <div class="col-sm-8">
+		    <ul class="nav navbar-nav">
+		      <li class="active"><%= link_to "HOME", root_path %></li>
+		      <li><%= link_to "POOJAS", temple_poojas_path %></li>
+		      <li><%= link_to "VAZHIPAADU", temple_vazhipaadu_path %></li>
+		      <li><%= link_to "PHOTO GALLERY", temple_photo_gallery_path %></li>
+		      <li><%= link_to "CONTACT US", temple_contact_us_path %></li>
+		    </ul>
+	    </div>
+    </div>
+  </div>
+</nav>
+</div>
